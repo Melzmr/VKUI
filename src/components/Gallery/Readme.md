@@ -67,8 +67,7 @@
                 align="center"
                 style={{ height: 150 }}
                 slideIndex={slideIndex}
-                // TODO: (() => {})
-                onChange={draggable ? slideIndex => this.setState({slideIndex}) : (() => {})}
+                onChange={draggable ? slideIndex => this.setState({slideIndex}) : null}
               >
                 <div style={{ backgroundColor: 'var(--destructive)' }} />
                 <div style={{ backgroundColor: 'var(--button_commerce_background)' }} />
